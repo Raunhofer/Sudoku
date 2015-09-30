@@ -13,14 +13,12 @@ public class TestSudokuVerifier {
 	public void testPositiveDigits() {
 		SudokuVerifier verifier = new SudokuVerifier();
 		assertEquals(true, verifier.verifyPositiveDigits(valid));
-		
 	}
 
 	@Test
 	public void testLength() {
 		SudokuVerifier verifier = new SudokuVerifier();
 		assertEquals(true, verifier.verifyLength(valid));
-		
 	}
 
 }
