@@ -15,3 +15,6 @@ EditAction 1443614256768 SudokuVerifier.java 271 2 2 0
 RefactoringAction 1443614260749 SudokuVerifier.java ADD boolean verifyPositiveDigits()/2 METHOD
 RefactoringAction 1443614268762 SudokuVerifier.java RENAME verifyPositiveDigits()/2=>boolean verify81digits() METHOD
 EditAction 1443614269853 SudokuVerifier.java 335 3 3 0
+RefactoringAction 1443614275776 SudokuVerifier.java RENAME verify81digits()=>boolean verifyL() METHOD
+RefactoringAction 1443614278298 SudokuVerifier.java RENAME verifyL()=>boolean verifyLen() METHOD
+EditAction 1443614279512 SudokuVerifier.java 333 3 3 0
