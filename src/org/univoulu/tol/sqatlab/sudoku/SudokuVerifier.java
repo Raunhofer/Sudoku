@@ -16,8 +16,11 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifyLength(String candidateSolution) {
-		
-		return false;
+		if (candidateSolution.length() < 81 || candidateSolution.length() > 81) {
+			return false;
+		} else {
+			return true;
+		}
 	}
 	
 	public boolean verifySubGrid(String candidateSolution) {
