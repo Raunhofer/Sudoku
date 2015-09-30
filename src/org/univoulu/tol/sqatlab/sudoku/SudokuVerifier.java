@@ -19,7 +19,6 @@ public class SudokuVerifier {
 		if (candidateSolution.length() < 81 || candidateSolution.length() > 81) {
 			return false;
 		} else {
-			System.out.println(candidateSolution.length());
 			return true;
 		}
 	}
