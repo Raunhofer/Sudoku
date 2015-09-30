@@ -32,5 +32,11 @@ public class TestSudokuVerifier {
 		SudokuVerifier verifier = new SudokuVerifier();
 		assertEquals(false, verifier.verifyPositiveDigits(valid + "124"));
 	}
+	
+	@Test
+	public void testGlobalGridRows() {
+		SudokuVerifier verifier = new SudokuVerifier();
+		assertEquals(true, verifier.verifyPositiveDigits(valid));
+	}
 
 }

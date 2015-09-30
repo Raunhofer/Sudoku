@@ -151,3 +151,7 @@ CompilationAction 1443617101577 SudokuVerifier.java
 EditAction 1443617107653 SudokuVerifier.java 845 6 7 0
 EditAction 1443617139610 SudokuVerifier.java 845 6 7 0
 EditAction 1443617159055 SudokuVerifier.java 867 6 7 0
+RefactoringAction 1443617165666 TestSudokuVerifier.java ADD void testLengthTooLong()/2 METHOD
+RefactoringAction 1443617172175 TestSudokuVerifier.java RENAME testLengthTooLong()/2=>void testGlobalGrid() METHOD
+RefactoringAction 1443617174184 TestSudokuVerifier.java RENAME testGlobalGrid()=>void testGlobalGridRows() METHOD
+EditAction 1443617189245 TestSudokuVerifier.java 1180 5 10 5
