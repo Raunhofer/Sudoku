@@ -2,3 +2,5 @@ FileOpenedAction 1443613873888 TestSudokuVerifier.java 237 1 1 0
 RefactoringAction 1443614183619 SudokuVerifier.java ADD bool verifyR1 FIELD
 RefactoringAction 1443614186133 SudokuVerifier.java RENAME verifyR1=>bool verifyR1() METHOD
 EditAction 1443614198879 SudokuVerifier.java 242 2 1 0
+CompilationAction 1443614199171 SudokuVerifier.java
+EditAction 1443614207672 SudokuVerifier.java 251 2 2 0
