@@ -33,7 +33,7 @@ public class SudokuVerifier {
 		for (int x = 0; x < array.length; x++) {
 			for (int i = x+1; i < array.length; i++) {
 				System.out.println(array[x] + " " + array[i]);
-				if (x!=i && array[i] == array[x]) {
+				if (array[i] == array[x]) {
 					return false;
 				}
 			}
