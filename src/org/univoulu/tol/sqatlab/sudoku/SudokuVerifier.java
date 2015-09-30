@@ -12,4 +12,9 @@ public class SudokuVerifier {
 		return false;
 	}
 	
+	public boolean verify81digits() {
+		
+		return false;
+	}
+	
 }
