@@ -24,7 +24,7 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifySubGrid(String candidateSolution) {
-		for (int x : candidateSolution.length()) {
+		for (int x = 0; x < 9; x++) {
 			
 		}
 		return false;
