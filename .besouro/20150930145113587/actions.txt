@@ -4,3 +4,5 @@ RefactoringAction 1443614186133 SudokuVerifier.java RENAME verifyR1=>bool verify
 EditAction 1443614198879 SudokuVerifier.java 242 2 1 0
 CompilationAction 1443614199171 SudokuVerifier.java
 EditAction 1443614207672 SudokuVerifier.java 251 2 2 0
+CompilationAction 1443614207913 SudokuVerifier.java
+EditAction 1443614211754 SudokuVerifier.java 255 2 2 0
