@@ -32,6 +32,7 @@ public class SudokuVerifier {
 		String[] array = candidateSolution.split("");
 		for (int x = 0; x < array.length; x++) {
 			for (int i = x+1; i < array.length; i++) {
+				System.out.println(array[i] + " " array[x]);
 				if (array[i] == array[x]) {
 					return false;
 				}
