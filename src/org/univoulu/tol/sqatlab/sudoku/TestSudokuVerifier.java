@@ -18,14 +18,19 @@ public class TestSudokuVerifier {
 	@Test
 	public void testNegativeDigits() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals(true, verifier.verifyPositiveDigits("314124214-123123"));
+		assertEquals(false, verifier.verifyPositiveDigits("314124214-123123"));
 	}
-
 
 	@Test
 	public void testLength() {
 		SudokuVerifier verifier = new SudokuVerifier();
 		assertEquals(true, verifier.verifyLength(valid));
+	}
+	
+	@Test
+	public void testLengthTooLong() {
+		SudokuVerifier verifier = new SudokuVerifier();
+		assertEquals(false, verifier.verifyPositiveDigits("314124214-123123"));
 	}
 
 }

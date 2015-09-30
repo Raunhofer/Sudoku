@@ -126,3 +126,11 @@ EditAction 1443616687772 SudokuVerifier.java 806 6 6 0
 RefactoringAction 1443616734525 TestSudokuVerifier.java ADD void testPositiveDigits()/2 METHOD
 RefactoringAction 1443616739535 TestSudokuVerifier.java RENAME testPositiveDigits()/2=>void testNegativeDigits() METHOD
 EditAction 1443616761925 TestSudokuVerifier.java 845 3 6 3
+UnitTestCaseAction 1443616764034 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443616764035 TestSudokuVerifier FAIL
+RefactoringAction 1443616776081 TestSudokuVerifier.java ADD void testNegativeDigits()/2 METHOD
+RefactoringAction 1443616783595 TestSudokuVerifier.java RENAME testNegativeDigits()/2=>void test() METHOD
+RefactoringAction 1443616790616 TestSudokuVerifier.java RENAME test()=>void testL() METHOD
+RefactoringAction 1443616792623 TestSudokuVerifier.java RENAME testL()=>void testToo() METHOD
+RefactoringAction 1443616797629 TestSudokuVerifier.java RENAME testToo()=>void testLengthTooLong() METHOD
+EditAction 1443616808843 TestSudokuVerifier.java 1021 4 8 4
