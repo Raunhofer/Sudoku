@@ -8,7 +8,8 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifyR1() {
-		return FALSE;
+		
+		return false;
 	}
 	
 }
