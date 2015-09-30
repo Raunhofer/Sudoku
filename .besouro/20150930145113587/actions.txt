@@ -98,3 +98,8 @@ EditAction 1443616198093 TestSudokuVerifier.java 675 2 4 2
 UnitTestCaseAction 1443616201769 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443616201770 TestSudokuVerifier OK
 EditAction 1443616204659 TestSudokuVerifier.java 676 2 4 2
+UnitTestCaseAction 1443616206469 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443616206470 TestSudokuVerifier OK
+RefactoringAction 1443616229179 TestSudokuVerifier.java REMOVE testLength() METHOD
+RefactoringAction 1443616229180 TestSudokuVerifier.java REMOVE testPositiveDigits() METHOD
+EditAction 1443616231932 TestSudokuVerifier.java 680 1 2 1
