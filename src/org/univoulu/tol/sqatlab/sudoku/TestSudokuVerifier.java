@@ -19,7 +19,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testLength() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals(true, verifier.verifyLength(valid));
+		assertEquals(true, verifier.verifyLength(invalid));
 		
 	}
 
