@@ -33,16 +33,12 @@ public class SudokuVerifier {
 		int dublicator = 0;
 		for (int x = 0; x < array.length; x++) {
 			for (int i = x+1; i < array.length; i++) {
-				if (array[i] === array[x]) {
-					dublicator++;
+				if (array[i] == array[x]) {
+					return false;
 				}
 			}
 		}
-		if (dublicator == 0) {
-			return true;
-		} else {
-			return false;
-		}
+		return true;
 	}
 	
 	public boolean verifyGlobalGridColumns(String candidateSolution) {
