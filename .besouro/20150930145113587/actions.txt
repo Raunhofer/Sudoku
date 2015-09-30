@@ -95,3 +95,6 @@ RefactoringAction 1443616179119 TestSudokuVerifier.java RENAME testPositiveDigi(
 RefactoringAction 1443616183125 TestSudokuVerifier.java ADD void testPositiveDigits()/2 METHOD
 RefactoringAction 1443616187635 TestSudokuVerifier.java RENAME testPositiveDigits()/2=>void testLength() METHOD
 EditAction 1443616198093 TestSudokuVerifier.java 675 2 4 2
+UnitTestCaseAction 1443616201769 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443616201770 TestSudokuVerifier OK
+EditAction 1443616204659 TestSudokuVerifier.java 676 2 4 2
