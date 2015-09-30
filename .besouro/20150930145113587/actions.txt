@@ -51,3 +51,6 @@ CompilationAction 1443614849693 TestSudokuVerifier.java
 CompilationAction 1443614854234 TestSudokuVerifier.java
 CompilationAction 1443614854234 TestSudokuVerifier.java
 EditAction 1443614859383 TestSudokuVerifier.java 360 1 1 0
+RefactoringAction 1443614888928 TestSudokuVerifier.java ADD String valid FIELD
+RefactoringAction 1443614892937 TestSudokuVerifier.java ADD String invalid FIELD
+EditAction 1443614902511 TestSudokuVerifier.java 569 1 1 0
