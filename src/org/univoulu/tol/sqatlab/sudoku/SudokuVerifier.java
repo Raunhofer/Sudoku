@@ -8,8 +8,7 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifyPositiveDigits(String candidateSolution) {
-		String input = candidateSolution;
-		if (Double.parseDouble(input)<0) {
+		if (candidateSolution.contains("-")) {
 			return true;
 		} else {
 			return false;
