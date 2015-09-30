@@ -29,7 +29,7 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifyGlobalGridRows(String candidateSolution) {
-		for (int x = 1; x < 9; x++) {
+		for (int x = 0; x < 9; x++) {
 			System.out.println(x);
 		}
 		return false;

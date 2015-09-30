@@ -156,3 +156,6 @@ RefactoringAction 1443617172175 TestSudokuVerifier.java RENAME testLengthTooLong
 RefactoringAction 1443617174184 TestSudokuVerifier.java RENAME testGlobalGrid()=>void testGlobalGridRows() METHOD
 EditAction 1443617189245 TestSudokuVerifier.java 1180 5 10 5
 EditAction 1443617202717 TestSudokuVerifier.java 1180 5 10 5
+UnitTestCaseAction 1443617205941 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617205942 TestSudokuVerifier FAIL
+EditAction 1443617215109 SudokuVerifier.java 867 6 7 0
