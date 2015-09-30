@@ -9,3 +9,6 @@ EditAction 1443614211754 SudokuVerifier.java 255 2 2 0
 CompilationAction 1443614212045 SudokuVerifier.java
 CompilationAction 1443614222324 SudokuVerifier.java
 EditAction 1443614232641 SudokuVerifier.java 259 2 2 0
+RefactoringAction 1443614253732 SudokuVerifier.java RENAME verifyR1()=>boolean verifyPosit() METHOD
+RefactoringAction 1443614256741 SudokuVerifier.java RENAME verifyPosit()=>boolean verifyPositiveDigits() METHOD
+EditAction 1443614256768 SudokuVerifier.java 271 2 2 0

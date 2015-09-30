@@ -7,7 +7,7 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
-	public boolean verifyR1() {
+	public boolean verifyPositiveDigits() {
 		
 		return false;
 	}
