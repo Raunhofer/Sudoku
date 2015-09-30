@@ -14,6 +14,13 @@ public class TestSudokuVerifier {
 		SudokuVerifier verifier = new SudokuVerifier();
 		assertEquals(true, verifier.verifyPositiveDigits(valid));
 	}
+	
+	@Test
+	public void testNegativeDigits() {
+		SudokuVerifier verifier = new SudokuVerifier();
+		assertEquals(true, verifier.verifyPositiveDigits("314124214-123123"));
+	}
+
 
 	@Test
 	public void testLength() {
