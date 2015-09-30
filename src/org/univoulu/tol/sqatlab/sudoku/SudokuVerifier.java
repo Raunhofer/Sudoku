@@ -8,8 +8,8 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifyPositiveDigits(String candidateSolution) {
-		BigDecimal number = new BigDecimal(candidateSolution);
-		if () {
+		String input = candidateSolution;
+		if (Double.parseDouble(input)<0) {
 			return true;
 		} else {
 			return false;
