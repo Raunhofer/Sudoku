@@ -41,3 +41,5 @@ RefactoringAction 1443614546798 SudokuVerifier.java RENAME fiveRee()=>void fiveR
 RefactoringAction 1443614548305 SudokuVerifier.java RENAME fiveResut()=>void fiveResults() METHOD
 RefactoringAction 1443614551313 SudokuVerifier.java RENAME fiveResults()=>void giveResults() METHOD
 EditAction 1443614551356 SudokuVerifier.java 700 7 6 0
+RefactoringAction 1443614690656 SudokuVerifier.java REMOVE giveResults() METHOD
+EditAction 1443614693076 SudokuVerifier.java 659 6 6 0

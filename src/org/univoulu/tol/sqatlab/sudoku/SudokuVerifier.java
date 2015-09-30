@@ -32,8 +32,4 @@ public class SudokuVerifier {
 		return false;
 	}
 	
-	public void giveResults() {
-		
-	}
-	
 }
