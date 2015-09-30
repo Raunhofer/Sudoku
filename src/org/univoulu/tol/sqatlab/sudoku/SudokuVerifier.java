@@ -8,8 +8,12 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifyPositiveDigits(String candidateSolution) {
-		
-		return false;
+		BigDecimal number = new BigDecimal(candidateSolution);
+		if () {
+			return true;
+		} else {
+			return false;
+		}
 	}
 	
 	public boolean verifyLength(String candidateSolution) {
