@@ -45,3 +45,4 @@ RefactoringAction 1443614690656 SudokuVerifier.java REMOVE giveResults() METHOD
 EditAction 1443614693076 SudokuVerifier.java 659 6 6 0
 RefactoringAction 1443614784711 TestSudokuVerifier.java ADD SudokuVerifier verifier FIELD
 EditAction 1443614789693 TestSudokuVerifier.java 290 1 1 0
+EditAction 1443614849393 TestSudokuVerifier.java 371 1 0 0
