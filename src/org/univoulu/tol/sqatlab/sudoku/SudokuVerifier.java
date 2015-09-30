@@ -31,9 +31,13 @@ public class SudokuVerifier {
 	public boolean verifyGlobalGridRows(String candidateSolution) {
 		String[] array = candidateSolution.split("");
 		for (int x = 0; x < 9; x++) {
-			System.out.println(array[x]);
+			for (int i = x+1; i < 9; i++) {
+				if (x!=i && array[i] == array[x]) {
+					return false;
+				}
+			}
 		}
-		return false;
+		return true;
 	}
 	
 	public boolean verifyGlobalGridColumns(String candidateSolution) {
