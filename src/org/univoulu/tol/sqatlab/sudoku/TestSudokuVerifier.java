@@ -6,6 +6,8 @@ import org.junit.Test;
 
 public class TestSudokuVerifier {
 
+	SudokuVerifier verifier = new SudokuVerifier();
+	
 	@Test
 	public void test() {
 		// GitHub testing
