@@ -216,3 +216,10 @@
 1443616201770 test-last 1 200 false
 1443616201771 test-last 1 200 false
 1443616206470 regression 1 1 true
+1443616235666 refactoring 1A 6 true
+1443616235667 refactoring 3 6 true
+1443616235668 refactoring 3 6 true
+1443616235669 refactoring 3 6 true
+1443616235670 refactoring 3 6 true
+1443616235671 refactoring 3 6 true
+1443616235672 refactoring 3 6 true
