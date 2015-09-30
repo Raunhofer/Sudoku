@@ -17,4 +17,9 @@ public class SudokuVerifier {
 		return false;
 	}
 	
+	public boolean verifySubGrid() {
+		
+		return false;
+	}
+	
 }
