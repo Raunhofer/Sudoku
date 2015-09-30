@@ -9,9 +9,9 @@ public class SudokuVerifier {
 	
 	public boolean verifyPositiveDigits(String candidateSolution) {
 		if (candidateSolution.contains("-")) {
-			return true;
-		} else {
 			return false;
+		} else {
+			return true;
 		}
 	}
 	
