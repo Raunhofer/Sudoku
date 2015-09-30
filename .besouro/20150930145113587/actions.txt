@@ -30,3 +30,9 @@ RefactoringAction 1443614358334 SudokuVerifier.java RENAME verifyGlobalGrid()/2=
 EditAction 1443614365734 SudokuVerifier.java 539 6 6 0
 RefactoringAction 1443614407442 SudokuVerifier.java ADD void giveReturn() METHOD
 EditAction 1443614410914 SudokuVerifier.java 579 7 6 0
+RefactoringAction 1443614477211 SudokuVerifier.java RENAME verifyPositiveDigits()=>boolean verifyPositiveDigits(String) METHOD
+RefactoringAction 1443614479217 SudokuVerifier.java RENAME verifyLength()=>boolean verifyLength(String) METHOD
+RefactoringAction 1443614480234 SudokuVerifier.java RENAME verifySubGrid()=>boolean verifySubGrid(String) METHOD
+RefactoringAction 1443614481744 SudokuVerifier.java RENAME verifyGlobalGridRows()=>boolean verifyGlobalGridRows(String) METHOD
+RefactoringAction 1443614483252 SudokuVerifier.java RENAME verifyGlobalGridColumns()=>boolean verifyGlobalGridColumns(String) METHOD
+EditAction 1443614492646 SudokuVerifier.java 699 7 6 0

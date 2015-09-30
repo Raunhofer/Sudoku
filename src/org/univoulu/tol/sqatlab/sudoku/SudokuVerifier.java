@@ -7,27 +7,27 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
-	public boolean verifyPositiveDigits() {
+	public boolean verifyPositiveDigits(String candidateSolution) {
 		
 		return false;
 	}
 	
-	public boolean verifyLength() {
+	public boolean verifyLength(String candidateSolution) {
 		
 		return false;
 	}
 	
-	public boolean verifySubGrid() {
+	public boolean verifySubGrid(String candidateSolution) {
 		
 		return false;
 	}
 	
-	public boolean verifyGlobalGridRows() {
+	public boolean verifyGlobalGridRows(String candidateSolution) {
 		
 		return false;
 	}
 	
-	public boolean verifyGlobalGridColumns() {
+	public boolean verifyGlobalGridColumns(String candidateSolution) {
 		
 		return false;
 	}
