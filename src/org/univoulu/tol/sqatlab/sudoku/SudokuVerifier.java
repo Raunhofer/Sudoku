@@ -22,4 +22,14 @@ public class SudokuVerifier {
 		return false;
 	}
 	
+	public boolean verifyGlobalGridRows() {
+		
+		return false;
+	}
+	
+	public boolean verifyGlobalGridColumns() {
+		
+		return false;
+	}
+	
 }

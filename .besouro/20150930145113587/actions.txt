@@ -21,3 +21,10 @@ EditAction 1443614279512 SudokuVerifier.java 333 3 3 0
 RefactoringAction 1443614283307 SudokuVerifier.java ADD boolean verifyPositiveDigits()/2 METHOD
 RefactoringAction 1443614304739 SudokuVerifier.java RENAME verifyPositiveDigits()/2=>boolean verifySu() METHOD
 EditAction 1443614306595 SudokuVerifier.java 396 4 4 0
+RefactoringAction 1443614322263 SudokuVerifier.java ADD boolean verifyPositiveDigits()/2 METHOD
+RefactoringAction 1443614329790 SudokuVerifier.java RENAME verifyPositiveDigits()/2=>boolean verify() METHOD
+RefactoringAction 1443614332798 SudokuVerifier.java RENAME verify()=>boolean verifyGlobalGrid() METHOD
+RefactoringAction 1443614334805 SudokuVerifier.java ADD boolean verifyPositiveDigits()/2 METHOD
+RefactoringAction 1443614351327 SudokuVerifier.java RENAME verifyPositiveDigits()/2=>boolean verifyGlobalGrid()/2 METHOD
+RefactoringAction 1443614358334 SudokuVerifier.java RENAME verifyGlobalGrid()/2=>boolean verifyGlobalGridColumns() METHOD
+EditAction 1443614365734 SudokuVerifier.java 539 6 6 0
