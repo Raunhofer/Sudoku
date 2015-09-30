@@ -9,7 +9,7 @@ public class SudokuVerifier {
 	
 	public boolean verifyPositiveDigits(String candidateSolution) {
 		
-		return false;
+		return true;
 	}
 	
 	public boolean verifyLength(String candidateSolution) {
