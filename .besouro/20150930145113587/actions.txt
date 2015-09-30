@@ -116,3 +116,6 @@ RefactoringAction 1443616291654 TestSudokuVerifier.java REMOVE testLength() METH
 RefactoringAction 1443616292660 TestSudokuVerifier.java ADD void testPositiveDigits() METHOD
 RefactoringAction 1443616292661 TestSudokuVerifier.java ADD void testLength() METHOD
 EditAction 1443616294170 TestSudokuVerifier.java 676 2 4 2
+UnitTestCaseAction 1443616296562 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443616296563 TestSudokuVerifier FAIL
+EditAction 1443616299680 TestSudokuVerifier.java 674 2 4 2
