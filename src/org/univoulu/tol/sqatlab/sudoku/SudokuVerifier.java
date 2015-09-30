@@ -30,8 +30,8 @@ public class SudokuVerifier {
 	
 	public boolean verifyGlobalGridRows(String candidateSolution) {
 		String[] array = candidateSolution.split("");
-		for (int x = 0; x < 9; x++) {
-			for (int i = x+1; i < 9; i++) {
+		for (int x = 0; x < array.length; x++) {
+			for (int i = x+1; i < array.length; i++) {
 				if (x!=i && array[i] == array[x]) {
 					return false;
 				}
