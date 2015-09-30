@@ -55,3 +55,8 @@ RefactoringAction 1443614888928 TestSudokuVerifier.java ADD String valid FIELD
 RefactoringAction 1443614892937 TestSudokuVerifier.java ADD String invalid FIELD
 EditAction 1443614902511 TestSudokuVerifier.java 569 1 1 0
 EditAction 1443614912151 TestSudokuVerifier.java 491 1 1 0
+UnitTestCaseAction 1443614932909 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443614932910 TestSudokuVerifier OK
+UnitTestCaseAction 1443614981217 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443614981218 TestSudokuVerifier OK
+EditAction 1443615021711 TestSudokuVerifier.java 491 1 1 0
