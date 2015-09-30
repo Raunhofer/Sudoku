@@ -134,3 +134,6 @@ RefactoringAction 1443616790616 TestSudokuVerifier.java RENAME test()=>void test
 RefactoringAction 1443616792623 TestSudokuVerifier.java RENAME testL()=>void testToo() METHOD
 RefactoringAction 1443616797629 TestSudokuVerifier.java RENAME testToo()=>void testLengthTooLong() METHOD
 EditAction 1443616808843 TestSudokuVerifier.java 1021 4 8 4
+UnitTestCaseAction 1443616811263 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443616811263 TestSudokuVerifier OK
+EditAction 1443616825662 TestSudokuVerifier.java 1016 4 8 4

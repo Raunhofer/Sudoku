@@ -30,7 +30,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testLengthTooLong() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals(false, verifier.verifyPositiveDigits("314124214-123123"));
+		assertEquals(false, verifier.verifyPositiveDigits(valid + "124"));
 	}
 
 }
