@@ -46,6 +46,7 @@ public class SudokuVerifier {
 			// Number-at-time
 			//StringBuilder row = new StringBuilder();
 			int[] row = {0,0,0,0,0,0,0,0};
+			row[0] = 1;
 			System.out.println(row[0]);
 			
 		}
