@@ -49,3 +49,6 @@ UnitTestCaseAction 1443885453509 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443885453510 TestSudokuVerifier FAIL
 FileOpenedAction 1443885463249 TestSudokuVerifier.java 1186 5 10 5
 EditAction 1443885496023 TestSudokuVerifier.java 1180 5 10 5
+UnitTestCaseAction 1443885499141 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443885499141 TestSudokuVerifier FAIL
+EditAction 1443885506181 TestSudokuVerifier.java 1179 5 8 4
