@@ -36,7 +36,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testGlobalGridRows() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals(true, verifier.verifyGlobalGridRows(valid);
+		assertEquals(true, verifier.verifyGlobalGridRows("111111111"));
 	}
 
 }
