@@ -49,6 +49,7 @@ public class SudokuVerifier {
 
 			for (int r = (x*9); r <= (x*9) + 8; r++) {
 				row[r] = Integer.parseInt(candidateArr[r]);
+				System.out.println(row[r]);
 			}
 		}
 		
