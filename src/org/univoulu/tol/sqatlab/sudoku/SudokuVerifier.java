@@ -46,12 +46,8 @@ public class SudokuVerifier {
 			// Number-at-time
 			//StringBuilder row = new StringBuilder();
 			int[] row = {0,0,0,0,0,0,0,0};
-			for (int r = (x*9); r <= (x*9) + 8; r++) {
-				row[r] += candidateArr[r];
-			}
-			for (int i = 0; i < row.length; i++) {
-				System.out.println(row[i]);
-			}
+			System.out.println(row);
+			
 		}
 		
 		/*
