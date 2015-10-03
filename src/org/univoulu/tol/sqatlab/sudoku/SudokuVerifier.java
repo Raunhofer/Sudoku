@@ -47,7 +47,7 @@ public class SudokuVerifier {
 			//StringBuilder row = new StringBuilder();
 			int[] row = {0,0,0,0,0,0,0,0};
 
-			System.out.println(candidateArr[0]);
+			System.out.println(candidateArr[1]);
 		}
 		
 		/*
