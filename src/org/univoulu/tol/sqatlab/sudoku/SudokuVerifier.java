@@ -40,14 +40,16 @@ public class SudokuVerifier {
 		}
 		*/
 		boolean verifyingResult = false;
-		int[] candidateArr = new int [candidateSolution.length()];
+		String[] candidateArr = candidateSolution.replaceAll("\\[", "").replaceAll("\\]", "").split(",");
 		// Row-at-time
 		for (int x = 0; x <= 8; x++) {
 			// Number-at-time
 			//StringBuilder row = new StringBuilder();
 			int[] row = new int [9];
 
-			System.out.println(row[1]);
+			for (int r = (x*9); r <= (x*9) + 8; r++) {
+				row[r] = Integer.parseInt(candidateArr[r]);
+			}
 		}
 		
 		/*
