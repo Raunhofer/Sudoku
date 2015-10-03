@@ -29,6 +29,32 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifyGlobalGridRows(String candidateSolution) {
+		/*
+		boolean verifyingResult = false;
+		int[] candidateArr = new int [candidateSolution.length()];
+		for (int x = 0; x < candidateSolution.length(); x++) {
+			StringBuilder row = new StringBuilder();
+			for (int r = 0; r < candidateSolution.length(); r++) {
+				row.append(candidateArr[r]);
+			}
+		}
+		*/
+		boolean verifyingResult = false;
+		int[] candidateArr = new int [candidateSolution.length()];
+		// Row-at-time
+		for (int x = 0; x <= 8; x++) {
+			// Number-at-time
+			//StringBuilder row = new StringBuilder();
+			int[] row = {0,0,0,0,0,0,0,0};
+			for (int r = (x*9); r <= (x*9) + 8; r++) {
+				row[r] += candidateArr[r];
+			}
+			for (int i = 0; i < row.length; i++) {
+				System.out.println(row[i]);
+			}
+		}
+		
+		/*
 		String[] array = candidateSolution.split("");
 		int dublicator = 0;
 		for (int x = 0; x < array.length; x++) {
@@ -38,6 +64,7 @@ public class SudokuVerifier {
 				}
 			}
 		}
+		*/
 		return true;
 	}
 	
