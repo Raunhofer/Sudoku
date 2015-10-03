@@ -41,11 +41,12 @@ public class SudokuVerifier {
 		*/
 		boolean verifyingResult = false;
 		String[] candidateArr = candidateSolution.replaceAll("\\[", "").replaceAll("\\]", "").split(",");
+		int[] row = new int [candidateArr.length];
 		// Row-at-time
 		for (int x = 0; x <= 8; x++) {
 			// Number-at-time
 			//StringBuilder row = new StringBuilder();
-			int[] row = new int [candidateArr.length];
+			
 
 			for (int r = (x*9); r <= (x*9) + 8; r++) {
 				row[r] = Integer.parseInt(candidateArr[r]);
