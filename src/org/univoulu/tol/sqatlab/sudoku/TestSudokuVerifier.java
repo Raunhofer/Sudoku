@@ -43,7 +43,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testGlobalGridRowsSameNumbersSameRow() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals(false, verifier.verifyGlobalGridRows(invalid));
+		assertEquals(false, verifier.verifyGlobalGridRows(duplicates));
 	}
 	
 	@Test
