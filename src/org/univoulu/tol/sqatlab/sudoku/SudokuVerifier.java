@@ -60,7 +60,9 @@ public class SudokuVerifier {
 		boolean verifyResult = true;
 		String columns = "";
 		for (int x=0; x<=8; x++) {
+			
 			System.out.println(x);
+			System.out.println(x+9);
 		}
 		
 		
