@@ -65,7 +65,7 @@ public class SudokuVerifier {
 				columns = columns + charArray[x+(r*9)];
 			}
 			
-			System.out.println(charArray[x]);
+			System.out.println(charArray[x] + "-" + charArray[x+9]);
 			//System.out.println(charArray[x] + " - " + charArray[x+9] + " - " + charArray[x+18]);
 		}
 		
