@@ -71,7 +71,6 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifyGlobalGridColumns(String candidateSolution) {
-		boolean verifyResult = true;
 		char[] charArray = candidateSolution.toCharArray();
 		String columnstr = "";
 		for (int x=0; x<=8; x++) {
@@ -79,30 +78,8 @@ public class SudokuVerifier {
 				columnstr = columnstr + charArray[x+(r*9)];
 			}
 		}
-		
-		String columns = "";
-		for (int x=0; x <= 8; x++) {
-			columns = candidateSolution.substring((x*9), Math.min(candidateSolution.length(), 9+(x*9)));
-			String str = columns;
-			int len = str.length();
-			Map<Character, Integer> numChars = new HashMap<Character, Integer>(Math.min(len, 26));
-			
-			for (int i = 0; i < len; ++i)
-			{
-			    char charAt = str.charAt(i);
-
-			    if (!numChars.containsKey(charAt))
-			    {
-			        numChars.put(charAt, 1);
-			    }
-			    else
-			    {
-			        numChars.put(charAt, numChars.get(charAt) + 1);
-			        verifyResult = false;
-			    }
-			}
-		}
-		return verifyResult;
+		boolean strValidity = verifyString(columnstr);
+		return strValidity;
 	}
 	
 }
