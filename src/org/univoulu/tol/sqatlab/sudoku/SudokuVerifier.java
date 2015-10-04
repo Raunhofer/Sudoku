@@ -61,7 +61,7 @@ public class SudokuVerifier {
 		String columns = "";
 		for (int x=0; x<=8; x++) {
 			
-			System.out.println(x);
+			System.out.println(candidateSolution[x]);
 			System.out.println(x+9);
 		}
 		
