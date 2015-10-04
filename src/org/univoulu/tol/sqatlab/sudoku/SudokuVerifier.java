@@ -61,7 +61,10 @@ public class SudokuVerifier {
 		char[] charArray = candidateSolution.toCharArray();
 		String columns = "";
 		for (int x=0; x<=8; x++) {
-			columns = columns + charArray[x];
+			for (int r=0; r<=8; r++) {
+				columns = columns + charArray[x+(r*9)];
+			}
+			
 			System.out.println(charArray[x]);
 			//System.out.println(charArray[x] + " - " + charArray[x+9] + " - " + charArray[x+18]);
 		}
