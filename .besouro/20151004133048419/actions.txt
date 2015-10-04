@@ -84,3 +84,4 @@ UnitTestSessionAction 1443956331838 TestSudokuVerifier.testGlobalGridColumnsVali
 UnitTestCaseAction 1443956337077 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443956337078 TestSudokuVerifier OK
 EditAction 1443956513708 SudokuVerifier.java 2617 6 20 0
+EditAction 1443956563087 SudokuVerifier.java 2617 6 20 0
