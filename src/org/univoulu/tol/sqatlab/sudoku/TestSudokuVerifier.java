@@ -8,6 +8,7 @@ public class TestSudokuVerifier {
 
 	String valid = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 	String invalid = "1234526789122345678891234567789123456678912345567891234456789123345678912234567891";
+	String duplicates = "111369825632158947958724316825437169791586432346912758289643571573291684164875333";
 
 	@Test
 	public void testPositiveDigits() {
@@ -54,7 +55,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testGlobalGridColumnsDuplicates() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals(false, verifier.verifyGlobalGridColumns(invalid));
+		assertEquals(false, verifier.verifyGlobalGridColumns(duplicates));
 	}
 
 }

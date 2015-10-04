@@ -68,3 +68,8 @@ RefactoringAction 1443956233709 TestSudokuVerifier.java ADD void testGlobalGridC
 RefactoringAction 1443956246218 TestSudokuVerifier.java RENAME testGlobalGridColumnsValid()/2=>void testGlobalGridColumnsDuplicates() METHOD
 EditAction 1443956250384 TestSudokuVerifier.java 1722 8 16 8
 EditAction 1443956256797 TestSudokuVerifier.java 1723 8 16 8
+UnitTestCaseAction 1443956259130 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443956259131 TestSudokuVerifier OK
+RefactoringAction 1443956272890 TestSudokuVerifier.java ADD String valid/2 FIELD
+RefactoringAction 1443956276896 TestSudokuVerifier.java RENAME valid/2=>String duplicates FIELD
+EditAction 1443956293819 TestSudokuVerifier.java 1833 8 16 8
