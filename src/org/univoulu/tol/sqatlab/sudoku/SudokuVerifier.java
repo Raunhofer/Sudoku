@@ -59,10 +59,10 @@ public class SudokuVerifier {
 	public boolean verifyGlobalGridColumns(String candidateSolution) {
 		boolean verifyResult = true;
 		char[] charArray = candidateSolution.toCharArray();
-		String columns = "";
+		String columnstr = "";
 		for (int x=0; x<=8; x++) {
 			for (int r=0; r<=8; r++) {
-				columns = columns + charArray[x+(r*9)];
+				columnstr = columnstr + charArray[x+(r*9)];
 			}
 		}
 		
