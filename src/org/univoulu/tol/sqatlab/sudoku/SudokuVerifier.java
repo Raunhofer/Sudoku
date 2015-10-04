@@ -25,7 +25,15 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifySubGrid(String candidateSolution) {
-		
+		boolean verifyResult = true;
+		char[] charArray = candidateSolution.toCharArray();
+		String girdstr = "";
+		for (int x=0; x<=8; x++) {
+			for (int r=0; r<=8; r++) {
+				girdstr = girdstr + charArray[x+(r*9)];
+			}
+		}
+		System.out.println(girdstr);
 		return false;
 	}
 	

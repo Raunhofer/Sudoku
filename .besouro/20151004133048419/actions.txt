@@ -75,3 +75,12 @@ RefactoringAction 1443956276896 TestSudokuVerifier.java RENAME valid/2=>String d
 EditAction 1443956293819 TestSudokuVerifier.java 1833 8 16 8
 EditAction 1443956298815 TestSudokuVerifier.java 1836 8 16 8
 EditAction 1443956309520 TestSudokuVerifier.java 1828 8 16 8
+UnitTestCaseAction 1443956311820 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443956311820 TestSudokuVerifier.testGlobalGridRowsDuplicates OK
+UnitTestCaseAction 1443956324050 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443956324051 TestSudokuVerifier OK
+UnitTestCaseAction 1443956331838 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443956331838 TestSudokuVerifier.testGlobalGridColumnsValid OK
+UnitTestCaseAction 1443956337077 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443956337078 TestSudokuVerifier OK
+EditAction 1443956513708 SudokuVerifier.java 2617 6 20 0
