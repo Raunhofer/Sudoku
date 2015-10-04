@@ -4,7 +4,7 @@ import java.util.Map;
 public class SudokuVerifier {
 	
 	public boolean verifyString(String candidateSolution) {
-		// Slice the input string into pieces of 9 characters, and return true if pieces contain only unique characters.
+		// Slice the input string into pieces of 9 characters, and return true if the pieces contain only unique characters.
 		boolean verifyResult = true;
 		String blocks = "";
 		for (int x=0; x <= 8; x++) {
