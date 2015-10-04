@@ -59,6 +59,9 @@ public class SudokuVerifier {
 	public boolean verifyGlobalGridColumns(String candidateSolution) {
 		boolean verifyResult = true;
 		String columns = "";
+		for (int x=0; x<1; x++) {
+			
+		}
 		
 		
 		return false;
