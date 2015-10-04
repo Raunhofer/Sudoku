@@ -4,6 +4,7 @@ import java.util.Map;
 public class SudokuVerifier {
 	
 	public boolean verifyString(String candidateSolution) {
+		// Slice the input string into pieces of 9 characters and return true if pieces contain only unique characters.
 		boolean verifyResult = true;
 		String blocks = "";
 		for (int x=0; x <= 8; x++) {
@@ -31,6 +32,7 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifyPositiveDigits(String candidateSolution) {
+		// If negative number found, return false.
 		if (candidateSolution.contains("-")) {
 			return false;
 		} else {
@@ -39,6 +41,7 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifyLength(String candidateSolution) {
+		// If exactly 81 characters, return true.
 		if (candidateSolution.length() == 81) {
 			return true;
 		} else {
@@ -47,6 +50,7 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifySubGrid(String candidateSolution) {
+		// If SubGrid contains only unique values, return true.
 		char[] charArray = candidateSolution.toCharArray();
 		String girdstr = "";
 		for (int i=0; i<=2; i++) {
@@ -61,11 +65,13 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifyGlobalGridRows(String candidateSolution) {
+		// If row contains only unique values, return true.
 		boolean strValidity = verifyString(candidateSolution);
 		return strValidity;
 	}
 	
 	public boolean verifyGlobalGridColumns(String candidateSolution) {
+		// If column contains only unique values, return true.
 		char[] charArray = candidateSolution.toCharArray();
 		String columnstr = "";
 		for (int x=0; x<=8; x++) {
