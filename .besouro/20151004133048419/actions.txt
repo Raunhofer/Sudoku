@@ -62,3 +62,8 @@ EditAction 1443956187880 TestSudokuVerifier.java 1542 7 14 7
 UnitTestCaseAction 1443956190199 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443956190200 TestSudokuVerifier FAIL
 EditAction 1443956194186 TestSudokuVerifier.java 1540 7 14 7
+UnitTestCaseAction 1443956196246 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443956196247 TestSudokuVerifier OK
+RefactoringAction 1443956233709 TestSudokuVerifier.java ADD void testGlobalGridColumnsValid()/2 METHOD
+RefactoringAction 1443956246218 TestSudokuVerifier.java RENAME testGlobalGridColumnsValid()/2=>void testGlobalGridColumnsDuplicates() METHOD
+EditAction 1443956250384 TestSudokuVerifier.java 1722 8 16 8

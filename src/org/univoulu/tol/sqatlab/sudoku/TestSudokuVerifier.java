@@ -50,5 +50,11 @@ public class TestSudokuVerifier {
 		SudokuVerifier verifier = new SudokuVerifier();
 		assertEquals(true, verifier.verifyGlobalGridColumns(valid));
 	}
+	
+	@Test
+	public void testGlobalGridColumnsDuplicates() {
+		SudokuVerifier verifier = new SudokuVerifier();
+		assertEquals(true, verifier.verifyGlobalGridColumns(invalid));
+	}
 
 }
