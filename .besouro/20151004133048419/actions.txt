@@ -104,3 +104,6 @@ RefactoringAction 1443956992099 SudokuVerifier.java RENAME verifyString()=>boole
 UnitTestCaseAction 1443957180370 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443957180371 TestSudokuVerifier OK
 EditAction 1443957186941 TestSudokuVerifier.java 1985 9 18 9
+UnitTestCaseAction 1443957189477 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443957189478 TestSudokuVerifier FAIL
+EditAction 1443957194942 TestSudokuVerifier.java 1988 9 18 9
