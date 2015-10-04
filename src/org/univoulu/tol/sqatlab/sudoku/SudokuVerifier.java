@@ -2,11 +2,6 @@ package org.univoulu.tol.sqatlab.sudoku;
 import java.util.HashMap;
 import java.util.Map;
 public class SudokuVerifier {
-
-	public int verify(String candidateSolution) {
-		// returns 1 if the candidate solution is correct
-		return 0;
-	}
 	
 	public boolean verifyString(String candidateSolution) {
 		boolean verifyResult = true;
