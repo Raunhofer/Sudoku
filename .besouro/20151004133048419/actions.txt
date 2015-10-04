@@ -85,3 +85,10 @@ UnitTestCaseAction 1443956337077 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443956337078 TestSudokuVerifier OK
 EditAction 1443956513708 SudokuVerifier.java 2617 6 20 0
 EditAction 1443956563087 SudokuVerifier.java 2617 6 20 0
+UnitTestCaseAction 1443956564976 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443956564977 TestSudokuVerifier OK
+RefactoringAction 1443956574021 TestSudokuVerifier.java ADD void testGlobalGridColumnsValid()/2 METHOD
+RefactoringAction 1443956581030 TestSudokuVerifier.java RENAME testGlobalGridColumnsValid()/2=>void testGlobalValid() METHOD
+RefactoringAction 1443956585535 TestSudokuVerifier.java RENAME testGlobalValid()=>void testValid() METHOD
+RefactoringAction 1443956589043 TestSudokuVerifier.java RENAME testValid()=>void testSubGridValid() METHOD
+EditAction 1443956589285 TestSudokuVerifier.java 1993 9 18 9
