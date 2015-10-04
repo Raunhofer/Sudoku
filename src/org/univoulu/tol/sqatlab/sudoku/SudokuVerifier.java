@@ -28,6 +28,9 @@ public class SudokuVerifier {
 		boolean verifyResult = true;
 		char[] charArray = candidateSolution.toCharArray();
 		String girdstr = "";
+		for (int i=0; i<=8; i++) {
+			
+		}
 		for (int x=0; x<=8; x++) {
 			for (int r=0; r<=2; r++) {
 				girdstr = girdstr + charArray[x+(r*9)];

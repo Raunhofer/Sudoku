@@ -93,3 +93,6 @@ RefactoringAction 1443956585535 TestSudokuVerifier.java RENAME testGlobalValid()
 RefactoringAction 1443956589043 TestSudokuVerifier.java RENAME testValid()=>void testSubGridValid() METHOD
 EditAction 1443956589285 TestSudokuVerifier.java 1993 9 18 9
 EditAction 1443956594832 TestSudokuVerifier.java 1983 9 18 9
+UnitTestCaseAction 1443956599006 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443956599007 TestSudokuVerifier FAIL
+EditAction 1443956705795 SudokuVerifier.java 2657 6 21 0
