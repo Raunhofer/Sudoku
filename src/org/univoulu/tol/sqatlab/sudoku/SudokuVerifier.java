@@ -63,13 +63,13 @@ public class SudokuVerifier {
 		for (int x=0; x<=8; x++) {
 			for (int r=0; r<=8; r++) {
 				columns = columns + charArray[x+(r*9)];
-				System.out.println(charArray[x+(r*9)]);
+				//System.out.println(charArray[x+(r*9)]);
 			}
 			
 			
 			//System.out.println(charArray[x] + " - " + charArray[x+9] + " - " + charArray[x+18]);
 		}
-		//System.out.println(charArray[0] + "-" + charArray[1] + "-" + charArray[2]);
+		System.out.println(columns);
 		
 		return false;
 	}
