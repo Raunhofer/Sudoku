@@ -66,30 +66,8 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifyGlobalGridRows(String candidateSolution) {
-		boolean verifyResult = true;
-		String rows = "";
-		for (int x=0; x <= 8; x++) {
-			rows = candidateSolution.substring((x*9), Math.min(candidateSolution.length(), 9+(x*9)));
-			String str = rows;
-			int len = str.length();
-			Map<Character, Integer> numChars = new HashMap<Character, Integer>(Math.min(len, 26));
-			
-			for (int i = 0; i < len; ++i)
-			{
-			    char charAt = str.charAt(i);
-
-			    if (!numChars.containsKey(charAt))
-			    {
-			        numChars.put(charAt, 1);
-			    }
-			    else
-			    {
-			        numChars.put(charAt, numChars.get(charAt) + 1);
-			        verifyResult = false;
-			    }
-			}
-		}
-		return verifyResult;
+		boolean strValidity = verifyString(candidateSolution);
+		return strValidity;
 	}
 	
 	public boolean verifyGlobalGridColumns(String candidateSolution) {
