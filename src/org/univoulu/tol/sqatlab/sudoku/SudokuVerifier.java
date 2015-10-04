@@ -8,6 +8,33 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
+	public boolean verifyString(String candidateSolution) {
+		boolean verifyResult = true;
+		String blocks = "";
+		for (int x=0; x <= 8; x++) {
+			blocks = candidateSolution.substring((x*9), Math.min(candidateSolution.length(), 9+(x*9)));
+			String str = blocks;
+			int len = str.length();
+			Map<Character, Integer> numChars = new HashMap<Character, Integer>(Math.min(len, 26));
+			
+			for (int i = 0; i < len; ++i)
+			{
+			    char charAt = str.charAt(i);
+
+			    if (!numChars.containsKey(charAt))
+			    {
+			        numChars.put(charAt, 1);
+			    }
+			    else
+			    {
+			        numChars.put(charAt, numChars.get(charAt) + 1);
+			        verifyResult = false;
+			    }
+			}
+		}
+		return verifyResult;
+	}
+	
 	public boolean verifyPositiveDigits(String candidateSolution) {
 		if (candidateSolution.contains("-")) {
 			return false;
@@ -25,7 +52,6 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifySubGrid(String candidateSolution) {
-		boolean verifyResult = true;
 		char[] charArray = candidateSolution.toCharArray();
 		String girdstr = "";
 		for (int i=0; i<=2; i++) {
@@ -35,8 +61,8 @@ public class SudokuVerifier {
 				}
 			}
 		}
-		System.out.println(girdstr);
-		return false;
+		boolean strValidity = verifyString(girdstr);
+		return strValidity;
 	}
 	
 	public boolean verifyGlobalGridRows(String candidateSolution) {

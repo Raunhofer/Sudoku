@@ -97,3 +97,10 @@ UnitTestCaseAction 1443956599006 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443956599007 TestSudokuVerifier FAIL
 EditAction 1443956705795 SudokuVerifier.java 2657 6 21 0
 EditAction 1443956857929 SudokuVerifier.java 2666 6 20 0
+UnitTestCaseAction 1443956860625 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443956860626 TestSudokuVerifier FAIL
+RefactoringAction 1443956983577 SudokuVerifier.java ADD boolean verifyString() METHOD
+RefactoringAction 1443956992099 SudokuVerifier.java RENAME verifyString()=>boolean verifyString(String) METHOD
+UnitTestCaseAction 1443957180370 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443957180371 TestSudokuVerifier OK
+EditAction 1443957186941 TestSudokuVerifier.java 1985 9 18 9
