@@ -67,7 +67,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testSubGridWithDuplicates() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals(true, verifier.verifySubGrid(duplicates));
+		assertEquals(false, verifier.verifySubGrid(duplicates));
 	}
 
 }
