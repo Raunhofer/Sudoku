@@ -58,11 +58,11 @@ public class SudokuVerifier {
 	
 	public boolean verifyGlobalGridColumns(String candidateSolution) {
 		boolean verifyResult = true;
+		char[] charArray = candidateSolution.toCharArray();
 		String columns = "";
 		for (int x=0; x<=8; x++) {
 			
-			System.out.println(candidateSolution[x]);
-			System.out.println(x+9);
+			System.out.println(charArray[x] + " - " + charArray[x+9]);
 		}
 		
 		
