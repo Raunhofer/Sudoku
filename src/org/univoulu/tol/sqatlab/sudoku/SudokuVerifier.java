@@ -1,5 +1,6 @@
 package org.univoulu.tol.sqatlab.sudoku;
-
+import java.util.HashMap;
+import java.util.Map;
 public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
@@ -29,46 +30,36 @@ public class SudokuVerifier {
 	}
 	
 	public boolean verifyGlobalGridRows(String candidateSolution) {
-		/*
-		boolean verifyingResult = false;
-		int[] candidateArr = new int [candidateSolution.length()];
-		for (int x = 0; x < candidateSolution.length(); x++) {
-			StringBuilder row = new StringBuilder();
-			for (int r = 0; r < candidateSolution.length(); r++) {
-				row.append(candidateArr[r]);
-			}
-		}
-		*/
-		boolean verifyingResult = false;
-		String[] candidateArr = candidateSolution.replaceAll("\\[", "").replaceAll("\\]", "").split(",");
-		int[] row = new int [candidateArr.length];
-		// Row-at-time
-		for (int x = 0; x <= 8; x++) {
-			// Number-at-time
-			//StringBuilder row = new StringBuilder();
+		boolean verifyResult = true;
+		String rows = "";
+		for (int x=0; x <= 8; x++) {
+			rows = candidateSolution.substring((x*9), Math.min(candidateSolution.length(), 9+(x*9)));
+			String str = rows;
+			int len = str.length();
+			Map<Character, Integer> numChars = new HashMap<Character, Integer>(Math.min(len, 26));
 			
+			for (int i = 0; i < len; ++i)
+			{
+			    char charAt = str.charAt(i);
 
-			for (int r = (x*9); r <= (x*9) + 8; r++) {
-				row[r] = Integer.parseInt(candidateArr[r]);
-				System.out.println(row[r]);
+			    if (!numChars.containsKey(charAt))
+			    {
+			        numChars.put(charAt, 1);
+			    }
+			    else
+			    {
+			        numChars.put(charAt, numChars.get(charAt) + 1);
+			        verifyResult = false;
+			    }
 			}
 		}
-		
-		/*
-		String[] array = candidateSolution.split("");
-		int dublicator = 0;
-		for (int x = 0; x < array.length; x++) {
-			for (int i = x+1; i < array.length; i++) {
-				if (x != i && array[i] == array[x]) {
-					return false;
-				}
-			}
-		}
-		*/
-		return true;
+		return verifyResult;
 	}
 	
 	public boolean verifyGlobalGridColumns(String candidateSolution) {
+		boolean verifyResult = true;
+		String columns = "";
+		
 		
 		return false;
 	}

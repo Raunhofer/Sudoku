@@ -22,7 +22,7 @@ public class TestSudokuVerifier {
 	}
 
 	@Test
-	public void testLength() {
+	public void testLengthValid() {
 		SudokuVerifier verifier = new SudokuVerifier();
 		assertEquals(true, verifier.verifyLength(valid));
 	}
@@ -30,13 +30,25 @@ public class TestSudokuVerifier {
 	@Test
 	public void testLengthTooLong() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals(false, verifier.verifyPositiveDigits(valid + "124"));
+		assertEquals(false, verifier.verifyLength(valid + "1"));
 	}
 	
 	@Test
-	public void testGlobalGridRows() {
+	public void testGlobalGridRowsValid() {
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals(true, verifier.verifyGlobalGridRows(invalid));
+		assertEquals(true, verifier.verifyGlobalGridRows(valid));
+	}
+	
+	@Test
+	public void testGlobalGridRowsSameNumbersSameRow() {
+		SudokuVerifier verifier = new SudokuVerifier();
+		assertEquals(false, verifier.verifyGlobalGridRows(invalid));
+	}
+	
+	@Test
+	public void testGlobalGridColumnsValid() {
+		SudokuVerifier verifier = new SudokuVerifier();
+		assertEquals(true, verifier.verifyGlobalGridColumns(valid));
 	}
 
 }
